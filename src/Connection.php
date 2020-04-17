@@ -18,7 +18,7 @@ use yii\httpclient\Client;
  * The following example shows how to create a Connection instance and establish
  * the API connection:
  * ```php
- * $connection = new \simialbi\yii2\voting\sms\Connection([
+ * $connection = new \simialbi\yii2\websms\Connection([
  *     'baseUrl' => 'https://api.sms.com',
  *     'token' => 'asdf1234asdf1234asdf1234asdf1234'
  * ]);
@@ -30,7 +30,7 @@ use yii\httpclient\Client;
  * ```php
  * 'components' => [
  *     'sms' => [
- *         'class' => '\simialbi\yii2\voting\sms\Connection',
+ *         'class' => '\simialbi\yii2\websms\Connection',
  *         'baseUrl' => 'https://api.sms.com',
  *         'token' => 'asdf1234asdf1234asdf1234asdf1234'
  *     ],
@@ -58,7 +58,7 @@ class Connection extends Component
      * @var string the class used to create new api [[Message]] objects
      * @see createMessage
      */
-    public $messageClass = 'simialbi\yii2\voting\sms\Message';
+    public $messageClass = 'simialbi\yii2\websms\Message';
 
     /**
      * @var Client
@@ -100,7 +100,7 @@ class Connection extends Component
      */
     public function createMessage()
     {
-        $config = ['class' => 'simialbi\yii2\voting\sms\Message'];
+        $config = ['class' => 'simialbi\yii2\websms\Message'];
         if ($this->messageClass !== $config['class']) {
             $config['class'] = $this->messageClass;
         }

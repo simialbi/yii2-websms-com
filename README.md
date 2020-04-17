@@ -38,7 +38,7 @@ return [
     // [...]
     'components' => [
         'sms' => [
-            'class' => 'simialbi\yii2\voting\sms\Connection',
+            'class' => 'simialbi\yii2\websms\Connection',
             'baseUrl' => 'https://api.websms.com',
             'token' => '<your api token>',
             'sendUrl' => '/rest/smsmessaging/simple'
