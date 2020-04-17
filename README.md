@@ -1,6 +1,8 @@
 # Library for using websms.com SMS services with yii2 framework
 
-## Resources
+[![Latest Stable Version](https://poser.pugx.org/simialbi/yii2-websms-com/v/stable?format=flat-square)](https://packagist.org/packages/simialbi/yii2-websms-com)
+[![Total Downloads](https://poser.pugx.org/simialbi/yii2-websms-com/downloads?format=flat-square)](https://packagist.org/packages/simialbi/yii2-websms-com)
+[![License](https://poser.pugx.org/simialbi/yii2-websms-com/license?format=flat-square)](https://packagist.org/packages/simialbi/yii2-websms-com)
 
 ## Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
