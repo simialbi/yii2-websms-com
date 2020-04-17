@@ -1,0 +1,54 @@
+{
+	"name": "simialbi/yii2-websms-com",
+	"type": "yii2-extension",
+	"description": "A PHP-client-library for using websms.com SMS services with yii2 framework.",
+	"keywords": [
+		"yii2",
+		"websms",
+		"websms.com",
+		"sms",
+		"sms api"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "simialbi",
+			"email": "simi.albi@outlook.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/simialbi/yii2-websms-com",
+		"issues": "https://github.com/simialbi/yii2-websms-com/issues"
+	},
+	"minimum-stability": "beta",
+	"require": {
+		"php": ">=5.6",
+		"yiisoft/yii2": "^2.0.20",
+		"yiisoft/yii2-httpclient": "^2.0.0"
+	},
+	"require-dev": {
+		"yiisoft/yii2-coding-standards": "~2.0",
+		"phpunit/phpunit": "<7"
+	},
+	"autoload": {
+		"psr-4": {
+			"simialbi\\yii2\\websms\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"yiiunit\\extensions\\websms\\": "tests"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
