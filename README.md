@@ -1,4 +1,8 @@
-# Library for using websms.com SMS services with yii2 framework
+# websms.com with yii2 framework
+
+A lightweight PHP-client-library for using websms.com SMS services with [yii2 framework](https://www.yiiframework.com).
+Reduces the complexity of network-communication between client and SMS gateway, to help save time and money for focusing 
+on their business logic.
 
 [![Latest Stable Version](https://poser.pugx.org/simialbi/yii2-websms-com/v/stable?format=flat-square)](https://packagist.org/packages/simialbi/yii2-websms-com)
 [![Total Downloads](https://poser.pugx.org/simialbi/yii2-websms-com/downloads?format=flat-square)](https://packagist.org/packages/simialbi/yii2-websms-com)
